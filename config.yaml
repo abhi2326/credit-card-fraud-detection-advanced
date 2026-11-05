@@ -1,0 +1,10 @@
+project:
+  name: "Credit Card Fraud Detection & Transaction Analytics"
+  target: "Class"
+  random_state: 42
+training:
+  test_size: 0.20
+  validation_size: 0.20
+  use_smote: true
+  threshold_objective: "f1"  # f1 or recall_at_precision
+  min_precision: 0.80
