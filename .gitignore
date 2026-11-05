@@ -12,4 +12,5 @@ models/*
 !models/.gitkeep
 reports/*
 !reports/.gitkeep
+!reports/README.md
 *.log
